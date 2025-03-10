@@ -1,0 +1,1106 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, SegoeUI, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+.banner1 {
+    background-color: #800000;
+    display: flex;
+    justify-content: space-between;
+    height: 3.5rem;
+    order: 1;
+}
+
+.mailbox {
+    padding-left: 2.7rem;
+    padding-top: 0.7rem;
+}
+
+.pmailbox {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar1 {
+    padding-top: 0.8rem;
+    padding-right: 4rem;
+}
+
+.ul-nb1 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.li-nb1 {
+    font-size: 0.8rem;
+    color: white;
+    padding-right: 0.5rem;
+    font-weight: 500;
+}
+
+.banner2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 2;
+    margin: auto;
+}
+
+.logobox1 {
+    background-color: #800000;
+    height: 5rem;
+    width: 12rem;
+}
+
+.navbar2 {
+    background-color: white;
+    min-height: 4.9rem;
+    width: 65rem;
+    flex-wrap: wrap;
+}
+
+.ul-nb2 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.li-nb2 {
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 700;
+    padding-top: 1.8rem;
+}
+
+header {
+    background-image: url("background\ image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 54rem;
+    margin-top: -5rem;
+}
+
+.headeroverlay {
+    background-color: rgba(0, 0, 0, 0.735);
+    z-index: 0;
+}
+
+.headertextbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    margin-top: 4rem;
+}
+
+.hhtb {
+    color: white;
+    font-size: 4.2rem;
+    text-align: center;
+}
+
+.phtb {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.headerrulerbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -19rem;
+}
+
+.ruler1 {
+    margin-left: 4rem;
+}
+
+.ruler2 {
+    margin-right: 4rem;
+}
+
+.header5starbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding-top: 10rem;
+}
+
+.h5st {
+    color: white;
+    font-size: 1rem;
+}
+
+.headersubtextbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+
+.subtextbox1 {
+    text-align: left;
+}
+
+.hstb1 {
+    color: white;
+    font-size: 1rem;
+}
+
+.pstb1 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-top: 0.2rem;
+}
+
+.subtextbox2 {
+    text-align: right;
+}
+
+.section1 {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: -7rem;
+}
+
+.textbox-s1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 44rem;
+    margin-left: 4rem;
+    padding-top: 2rem;
+}
+
+.ranktextbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.hrtb {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.linesprtb {
+    color: white;
+    font-size: 0.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1rem;
+}
+
+.prtb {
+    color: rgba(255, 255, 255, 0.393);
+    font-size: 1.2rem;
+}
+
+.ranklogos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    justify-content: space-between;
+    width: 20rem;
+    padding-bottom: 1rem;
+}
+
+.rankstatbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    width: 27rem;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.heading-s2 {
+    padding-top: 4.5rem;
+}
+
+.vcheading {
+    color: black;
+    font-size: 2rem;
+}
+
+.vclines {
+    color: black;
+    font-size: 1rem;
+}
+
+.textbox-s2 {
+    padding-left: 2rem;
+}
+
+.vcquote {
+    color: black;
+    font-size: 10rem;
+    margin-bottom: -5rem;
+}
+
+.vcquotetxt {
+    color: black;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.vcnametxt {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.vctitletxt {
+    color: black;
+    font-size: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.vcposition {
+    color: black;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.buttonbox {
+    padding-top: 1rem;
+}
+
+a.Alink-vcagenda:link, a.Alink-vcagenda:visited {
+    background-color: black;
+    color: white;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    margin-top: 1.5rem;
+}
+
+a.Alink-vcagenda:hover, a.Alink-vcagenda:active {
+    color:white;
+}
+
+.imagebox-s2 {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: 5rem;
+    background-color: white;
+}
+
+.textbox-s3 {
+    padding-right: 3rem;
+}
+
+.htbs3 {
+    font-size: 2.1rem;
+    color: black;
+}
+
+.ptbs3 {
+    font-size: 0.9rem;
+    color: grey;
+    line-height: 1.4rem;
+}
+
+a.Alink-history:link, a.Alink-history:visited {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    margin-top: 1.5rem;
+    text-decoration: 0.1rem solid black underline;
+}
+
+a.Alink-history:hover, a.Alink-history:active {
+    color:#800000;
+    text-decoration: 0.1rem solid #800000 underline;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    height: auto;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+.gridcolumn1-s4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 15rem;
+    width: 22rem;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.numbers4 {
+    color: #800000;
+    font-size: 2rem;
+}
+
+.texts4 {
+    color: gray;
+    font-size: 1rem;
+}
+
+.gridcolumn2-s4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 22rem;
+    min-height: 15rem;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.gridcolumn3-s4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 22rem;
+    min-height: 15rem;
+    margin: 2rem;
+}
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.headingbox-s5 {
+    margin-left: 3rem;
+}
+
+.hhbs5 {
+    color: black;
+    font-size: 3rem;
+}
+
+.phbs5 {
+    color: grey;
+    font-size: 1rem;
+}
+
+.gridbox-s5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.grid1-gbs5 {
+    background-color: white;
+    border-radius: 1rem;
+    height: auto;
+    padding: 1.2rem;
+    border: 0.1rem solid lightgray;
+    margin-top: 2.5rem;
+}
+
+.grid1-gbs5:hover {
+    background-color: white;
+    border-radius: 1rem;
+    height: auto;
+    padding: 1.2rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.1rem black;
+    margin-top: 2.5rem;
+}
+
+.txt-gbs5 {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.ht-gbs5 {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.pt-gbs5 {
+    color: grey;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+.grid2-gbs5 {
+    background-color: white;
+    border-radius: 1rem;
+    height: auto;
+    padding: 1.2rem;
+    border: 0.1rem solid lightgray;
+    margin-top: 2.5rem;
+}
+
+.grid2-gbs5:hover {
+    background-color: white;
+    border-radius: 1rem;
+    height: auto;
+    padding: 1.2rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.1rem black;
+    margin-top: 2.5rem;
+}
+
+.grid3-gbs5 {
+    background-color: white;
+    border-radius: 1rem;
+    height: auto;
+    padding: 1.2rem;
+    border: 0.1rem solid lightgray;
+    margin-top: 2.5rem;
+}
+
+.grid3-gbs5:hover {
+    background-color: white;
+    border-radius: 1rem;
+    height: auto;
+    padding: 1.2rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.1rem black;
+    margin-top: 2.5rem;
+}
+
+.grid4-gbs5 {
+    background-color: white;
+    border-radius: 1rem;
+    height: auto;
+    padding: 1.2rem;
+    border: 0.1rem solid lightgray;
+    margin-top: 2.5rem;
+}
+
+.grid4-gbs5:hover {
+    background-color: white;
+    border-radius: 1rem;
+    height: auto;
+    padding: 1.2rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.1rem black;
+    margin-top: 2.5rem;
+}
+
+.buttonbox-s5 {
+    margin: auto;
+}
+
+a.Alink-News:link, a.Alink-News:visited {
+    background-color: black;
+    color: white;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    margin-top: 1.5rem;
+}
+
+a.Alink-News:hover, a.Alink-News:active {
+    color:white;
+}
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.headingbox-s6 {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hhbs6 {
+    color: black;
+    font-size: 3rem;
+}
+
+.phbs6 {
+    color: grey;
+    font-size: 1rem;
+}
+
+.imagebox-s6 {
+    margin: auto;
+}
+
+.buttonbox-s6 {
+    margin: auto;
+}
+
+a.Alink-Events:link, a.Alink-Events:visited {
+    background-color: black;
+    color: white;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    margin-top: 1.5rem;
+}
+
+a.Alink-Events:hover, a.Alink-Events:active {
+    color:white;
+}
+
+.section7 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.headingbox-s7 {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hhbs7 {
+    color: black;
+    font-size: 3rem;
+}
+ 
+.gridbox-s7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.gridcolumn1-gbs7 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img1-gc1, .img2-gc1, .img3-gc1, .img4-gc1, .img5-gc1, .img6-gc1 {
+    padding: 0.6rem;
+}
+
+.gridcolumn2-gbs7 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gridcolumn3-gbs7 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section8 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.textbox-s8 {
+    padding-left: 2rem;
+}
+
+.heading-s8 {
+    padding-top: 4.5rem;
+}
+
+.facultyheading {
+    color: white;
+    font-size: 2.7rem;
+}
+
+.hodtxtbox {
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+}
+
+.faclines {
+    color: white;
+    font-size: 1rem;
+}
+
+.hodquote {
+    color: white;
+    font-size: 10rem;
+    margin-bottom: -5rem;
+}
+
+.hodquotetxt {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.hodnametxt {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.hodposition {
+    color: white;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.imagebox-s8 {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.section8a {
+    background-color: black;
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+.gridbox-s8a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: auto;
+    margin: auto;
+}
+
+.imggb-s8a {
+    margin: auto;
+    padding: 2rem;
+}
+
+.section9 {
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    padding-top: 3rem;
+}
+
+.textbox-s9 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 13rem;
+    padding-bottom: 1rem;
+}
+
+.hhbs9 {
+    color: black;
+    font-size: 3rem;
+}
+
+.phbs9 {
+    color: grey;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.tinyphbs9 {
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.imagebox-s9 {
+    margin: auto;
+}
+
+.section9a {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.textbox-s9a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.subtb1-s9a {
+    width: 30rem;
+}
+
+.subtb2-s9a {
+    align-items: flex-start;
+    padding: 1.5rem;
+}
+
+.htbs9a {
+    font-size: 2.7rem;
+    color: black;
+    text-align: center;
+}
+
+.ptbs9a {
+    font-size: 1rem;
+    color: grey;
+    line-height: 1.4rem;
+}
+
+a.Alink-visit:link, a.Alink-visit:visited {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    margin-top: 1.5rem;
+    text-decoration: 0.1rem solid black underline;
+}
+
+a.Alink-visit:hover, a.Alink-visit:active {
+    color:#800000;
+    text-decoration: 0.1rem solid #800000 underline;
+}
+
+.gridbox-s9a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.grid1-gbs9a, .grid2-gbs9a, .grid3-gbs9a {
+    width: 23.6rem;
+    height: 28rem;
+    padding-left: 0.7rem;
+}
+
+.img-gbs9a {
+    justify-content: center;
+}
+
+.txt-gbs9a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    padding: 0.5rem;
+}
+
+.htgbs9a {
+    color: black;
+    font-size: 1.8rem;
+    padding-top: 0.5rem;
+}
+
+.ptgbs9a {
+    color: grey;
+    font-size: 1rem;
+}
+
+.section10 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.textbox-s10 {
+    padding-left: 2rem;
+}
+
+.heading-s10 {
+    padding-top: 4.5rem;
+}
+
+.studentheading {
+    color: white;
+    font-size: 2.7rem;
+}
+
+.stulines {
+    color: white;
+    font-size: 1rem;
+}
+
+.stutxtbox {
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+}
+
+.stuquote {
+    color: white;
+    font-size: 10rem;
+    margin-bottom: -5rem;
+}
+
+.stuquotetxt {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.stunametxt {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.stuposition {
+    color: white;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.imagebox-s10 {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.section10a {
+    background-color: black;
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+.gridbox-s10a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: auto;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.imggb-s10a {
+    margin: auto;
+    padding: 2rem;
+}
+
+.section11 {
+    background-color: #800000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.textbox-s11 {
+    margin-left: 5rem;
+    flex-wrap: wrap;
+}
+
+.heading-s11 {
+    padding-top: 4.5rem;
+}
+
+.resourcesheading {
+    color: white;
+    font-size: 2.7rem;
+}
+
+.reslines {
+    color: white;
+    font-size: 1rem;
+}
+
+.listbox-s11 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 68rem;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+}
+
+.ul-lbs11 {
+    list-style-type: disc;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.li-lbs11 {
+    font-size: 1rem;
+    color: white;
+    padding-right: 0.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footersection1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 72rem;
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+}
+
+.headingbox-fs1 {
+    padding: 1rem;
+}
+
+.hhbfs1 {
+    color: white;
+    font-size: 2.4rem;
+}
+
+.footlines {
+    color: white;
+    font-size: 1rem;
+}
+
+.socialbox-fs1 {
+    padding: 1.6rem;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 1.2rem;
+    padding-right: 0.9rem;
+}
+
+.footersection2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70rem;
+    height: auto;
+    padding: 1.5rem;
+    justify-content: space-between;
+}
+
+.htbg1-fs2, .htbg2-fs2, .htbg3-fs3, .htbg4-fs4 {
+    color: white;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.ptbg1-fs2, .li-g2fs2, .pfg {
+    font-size: 0.9rem;
+    color: grey;
+    padding-right: 0.5rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+
+.ul-g2fs2 {
+    list-style-type: disc;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footersection3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.foots3lines {
+    color: orange;
+    font-size: 0.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.finalgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+a.Alink-top:link, a.Alink-top:visited {
+    background-color: orange;
+    color: black;
+    padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+}
+
+a.Alink-top:hover, a.Alink-top:active {
+    background-color: orange;
+    color: black;
+}
